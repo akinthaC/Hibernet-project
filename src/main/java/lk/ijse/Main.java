@@ -23,13 +23,13 @@ public class Main {
         Transaction transaction = session.beginTransaction();
 
         //save
-//        session.save(student);
-//
-//        //update
-//        session.update(student);
-//
-//        //delete
-//        session.delete(student);
+        session.save(student);
+
+        //update
+        session.update(student);
+
+        //delete
+        session.delete(student);
 
         //get
         Student student1 = session.get(Student.class, 1);
@@ -42,13 +42,13 @@ public class Main {
         animal.setName("dog");
 
         //save
-//        session.save(animal);
-//
-//        //update
-//        session.update(animal);
-//
-//        //delete
-//        session.delete(animal);
+        session.save(animal);
+
+        //update
+        session.update(animal);
+
+        //delete
+        session.delete(animal);
 
 
         //get
